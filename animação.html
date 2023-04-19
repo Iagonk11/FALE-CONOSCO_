@@ -12,43 +12,40 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Bubblegum Sans', cursive;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
         body{
             display: flex;
             align-items: center;
             justify-content: center;
             min-height: 100vh;
-            background: lightskyblue;
+            background: #111111;
             z-index: 2;
 
         }
         .aglomero{
             display: inline-flex;
             z-index: 2;
-            margin-top: 500px;
 
         }
         .aglomero .estatico{
             color: #ffff;
-            font-size: 45px;
+            font-size: 35px;
             font-weight: 400;
             z-index: 2;
-            -webkit-text-stroke: 2px black;
         }
         .aglomero .dinamico{
             margin-left: 15px;
             line-height: 40px;
-            height: 50px;
+            height: 40px;
             overflow: hidden;
             z-index: 2;
-            margin-top: 12px;        
         }
         .dinamico li{
             color: #fc6d6d;
             list-style: none;
-            font-size: 45px;
-            font-weight: 2000;
+            font-size: 35px;
+            font-weight: 500;
             left: 0;
             position: relative;
             animation: slide 6s steps(1) ;
@@ -67,7 +64,7 @@
             left: 0;
             border-left: 2px solid #fc6d6d;
             animation: typing 1.5s steps(10) infinite;
-            background: lightskyblue;
+            background: #111111;
             z-index: 2;
         }
         .dinamico li span{
@@ -78,6 +75,16 @@
                 left: 100%;
                 margin: 0 -35px 0 35px;
             }
+        }
+        .carregando{
+
+            animation: zoomInDown 2s;
+            height: 30px;
+            width: 30px;
+            top: 53vh;
+            position: absolute;
+            z-index: 2;
+            
         }
         .brigas{
             z-index: 1;
@@ -93,12 +100,7 @@
             <li><span>Brigadeiro</span></li>
         </ul>
     </div>
+    <img src="image/carrega.gif" img class="carregando">
     <img src="image/brigas.png" img class="brigas">
 </body>
-<script>
-    var temporizador = setTimeout(abrir, 4300);
-    function abrir(){
-        window.open("estrutura.html", "_self");
-    }
-</script>
 </html>

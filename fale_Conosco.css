@@ -19,13 +19,13 @@ section{
     justify-content: center;
     flex-direction: column;
     padding: 10px 45px;
-    background: #fff;
+    background: #fac031;
     width: 500px;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    box-shadow: rgba(0, 0, 0, 0.685) 0px 22px 70px 4px;
 }
 
 section h2{
-    color: #000;
+    color: #ffff;
     font-size: 2.5rem;
     margin: 2rem;
 }
@@ -37,7 +37,7 @@ section form{
 }
 
 form label{
-    color: #000;
+    color: #ffff;
     font-size: 17px;
     margin-bottom: 4px;
 }
@@ -49,7 +49,6 @@ form input{
     margin-bottom: 20px;
     font-size: 15px;
     transition: all 0.5s;
-    background: #e4e4e4;
 }
 
 form input:focus{
@@ -63,7 +62,6 @@ form textarea{
     font-size: 15px;
     margin-bottom: 30px;
     transition: all 0.5s;
-    background: #e4e4e4;
 }
 
 form textarea:focus{
@@ -74,17 +72,26 @@ form button{
     padding: 15px;
     cursor: pointer;
     font-size: 16px;
-    background: #fac031;
-    border: 2px solid #fac031;
-    color: #ffff;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
     transition: all 1s;
     margin-bottom: 20px;
 }
 
 form button:hover{
+    background: #fff;
     border-radius: 16px;
-    background: #c59826;
 }
+
+/* Logo Transparente */
+
+.logo{
+    opacity: 30%;
+    width: 23px;
+    height: 10px;
+}
+
 /* pagina Obrigado */
 
 .main{
@@ -92,30 +99,32 @@ form button:hover{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #fff;
+    background: #fac031;
     flex-direction: column;
 }
 
 .text{
     font-size: 45px;
-    color: #fff;
+    color: #ffffff;
     margin-bottom: 30px;
 }
 
 .paragrafo{
-    color: #fff;
+    color: #ffffff;
     margin-bottom: 50px;
 }
 
 .btn{
     padding: 15px 55px;
-    background: #fff;
+    background: #ffffff;
     text-decoration: none;
-    color: #fac031;
+    color: #fac032;
     font-size: 18px;
-    transition: all 0.7;
+    transition: all 0.8s;
 }
 
 .btn:hover{
-    border-radius: 16px;
+    border-radius: 13px;
+    background: #fac031;
+    color: #ffffff;
 }
