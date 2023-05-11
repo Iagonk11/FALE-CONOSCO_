@@ -98,29 +98,20 @@
     margin-top: 20px;
     text-decoration: none;
 }
+
+.registro .registro_main form .pesquisar_btn{
+    padding: 10px 0;
+    background: #fac031;
+    color: white;
+    width: 40%;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
 .lupa{
     height: 30px;
     width: 30px;
     margin-left: 200px;
     margin-top: -55px;
-}
-
-.botao{
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 20px;
-    display: flex;
-    width: 300px;
-   
-}
-.excluir_btn{
-    margin-left: 5px;
-}
-
-.alterar_btn{
-    margin-left: 50px;
-}
-
-.inserir_btn{
-    margin-left: 50px; 
 }
